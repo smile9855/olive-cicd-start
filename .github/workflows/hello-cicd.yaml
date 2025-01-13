@@ -4,10 +4,10 @@ on: [push]
 jobs:
   shell-cmd-job:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: echo Hello
         run: echo "Hello World"
-      - name: multiple line command:
+      - name: multiple line command
         run: |
          node -v  
          npm -v
